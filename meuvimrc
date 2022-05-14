@@ -1,0 +1,51 @@
+" ativar sintaxe colorida
+syntax on
+
+" ativar indentação automática
+set autoindent
+
+" ativa indentação inteligente, o vim tentará
+" adivinhar qual é a melhor indentação para o
+" código quando você efetuar quebra de linha.
+" Funciona bem para linguagem C
+set smartindent
+
+" por padrão o vim armazena os últimos 50
+" comandos que você digitou em seu histórico
+set history=100
+
+" destaca a linha em que o cursor está po-
+" sicionado, ótimo para quem não enxerga muito
+" bem
+set cursorline
+
+" ativa o clique do mouse para navegação pelos
+" documentos
+set mouse=a
+
+" ativa o compartilhamento de área de trans-
+" ferência entre o vim e a interfáce gráfica
+set clipboard=unnamedplus
+
+" converte o tab em espaços em branco ao te-
+" clar tab o vim irá substituir por 2 espaços
+" set tabstop=2 softtabstop=2 expandtab shiftwidth=2
+
+" ao teclar a barra de espaço no modo normal,
+" o vim irá colapsar ou expandir o bloco de
+" código do cursor foldlevel é a partir de que
+" nível de indentação o código iniciará colapsado
+set foldmethod=syntax
+set foldlevel=99
+nnoremap <space> za
+
+" Automatically wrap text that extends beyond
+" the screen lenght
+set wrap
+
+" Encoding
+" set encoding=utf-8
+
+" Show line numbers
+set number
+
